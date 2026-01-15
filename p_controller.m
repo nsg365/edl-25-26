@@ -73,7 +73,7 @@ for k = 1:5:length(xp)
     axis([-1.5 1.5 -1.5 1.5 -1.5 1.5])
     grid on
     view(40,30)
-
+    pause(0.3)
     drawnow
 end
 
